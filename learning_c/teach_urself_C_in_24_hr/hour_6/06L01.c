@@ -18,16 +18,15 @@ main()
 	printf("x += y assigns %d to x;\n", x);
 	
 	x = 1; /* reset x */
-	z = z * z + y;
-	printf("z = z * x + y assigns %d to z;\n", z);\
+	z = z * x + y;
+	printf("z = z * x + y assigns %d to z;\n", z);
 	
 	z = 10; /* reset z */
-	z *= x + y;
-	printf("z *= x + y assigns %d to z.\n", z);
+	z = z * (x + y);
+	printf("z = z * (x + y) assigns %d to z.\n", z);
 
 	z = 10; /* reset z */
 	z *= x + y;
 	printf("z *= x + y assigns %d to z.\n", z);
-
 	return 0;
 }
