@@ -8,7 +8,7 @@ main()
 	printf("Please enter a single digit for a day\n");
 	printf("(within the range of 1 to 3):\n");
 	day = getchar();
-	swtich (day) {
+	switch (day){
 		case '1':
 			printf("Day 1\n");
 		case '2':
