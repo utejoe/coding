@@ -4,7 +4,7 @@
 
 main()
 {
-	char str1[] = "Copying a string.";
+	char str1[] = "Copy a string.";
 	char str2[15];
 	char str3[15];
 	int i;
