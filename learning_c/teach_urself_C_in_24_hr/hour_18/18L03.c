@@ -10,12 +10,12 @@ typedef char *PTR_STR;
 typedef char CHAR;
 typedef int INTEGER;
 
-void Convert2Upper(PTR_STR str1, PTE_STR str2);
+void Convert2Upper(PTR_STR str1, PTR_STR str2);
 
 main()
 {
 	STRING str;
-	STRING moon = {"Whatever we wear"
+	STRING moon = {"Whatever we wear",
 		       "we become beautiful",
 		       "moon viewing!"};
 	INTEGER i;
@@ -28,7 +28,7 @@ main()
 		term = 1;
 		i = ITEM_NUM; /* break the for loop */
 	  }
-	  convert2Upper(moon[i], str[i]);
+	  Convert2Upper(moon[i], str[i]);
 	  printf("%s\n", moon[i]);
 	}
 	for (i=0; i<ITEM_NUM; i++){
