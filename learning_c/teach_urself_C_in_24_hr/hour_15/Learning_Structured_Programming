@@ -1,9 +1,0 @@
-When you start to write a program to solve a problem, one way to do it is to work on the
-smallest pieces of the problem. First, you define and write functions for each piece. After
-each function is written and tested, you begin to put them together to build a program
-that can solve the problem. This approach is normally called bottom-up programming.
-
-
-On the other hand, to solve a problem, you can first work out an outline and start your
-programming at a higher level. For instance, you can work on the main() function at the
-beginning, and then move to the next lower level until the lowest-level functions are writ￾ten. This type of approach is called top-down programming
