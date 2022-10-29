@@ -1,0 +1,6 @@
+print(range(7))
+print(range(3))
+print(range(1, 7))
+print(range(20, 30))
+print(range(-5, 5))
+print(range(2, 20, 2))
