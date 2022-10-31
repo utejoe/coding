@@ -1,40 +1,20 @@
 def get_specials():
-monday = {'B': 'Horseradish omelet. Note:
-better than it sounds',
-          'L': 'Momma\'s Curry. Note: Can be
-made spicy.',
-'D': 'Beef brisket. Note: Comes with
-au jus. That\'s pronounced "Oh
-jhoo", not "Ow Juice"'}
-tuesday = {'B': 'Sausage gravy over biscuits.
-Note: Toast can be subbed.',
-'L': 'Grilled cheese and tomato
-soup. Note: We have vegan cheese.',
-'D': 'Meatloaf. Note: Comes with
-catsup on the top. Not optional.'}
-wednesday = {'B': 'Horseradish omelet. Note:
-better than it sounds',
-'L': 'Momma\'s Curry. Note: Can be
-made spicy.',
-'D': 'Beef brisket. Note: Comes with
-au jus. That\'s pronounced "Oh
-jhoo", not "Ow Juice"'}
-thursday = {'B': 'Horseradish omelet. Note:
-better than it sounds',
-'L': 'Momma\'s Curry. Note: Can be
-made spicy.',
-'D': 'Beef brisket. Note: Comes with
-au jus. That\'s pronounced "Oh
-jhoo", not "Ow Juice"'}
-friday = {'B': 'Horseradish omelet. Note:
-better than it sounds',
-'L': 'Momma\'s Curry. Note: Can be
-made spicy.',
-'D': 'Beef brisket. Note: Comes with
-au jus. That\'s pronounced "Oh
-jhoo", not "Ow Juice"'}
-saturday = {'B': 'Horseradish omelet. Note:
-better than it sounds',
+monday = {'B': 'Horseradish omelet. Note:  better than it sounds',
+          'L': 'Momma\'s Curry. Note: Can be nmade spicy.',
+'D': 'Beef brisket. Note: Comes with au jus. That\'s pronounced "Oh jhoo", not "Ow Juice"'}
+tuesday = {'B': 'Sausage gravy over biscuits. Note: Toast can be subbed.',
+'L': 'Grilled cheese and tomato soup. Note: We have vegan cheese.',
+'D': 'Meatloaf. Note: Comes with catsup on the top. Not optional.'}
+wednesday = {'B': 'Horseradish omelet. Note: better than it sounds',
+'L': 'Momma\'s Curry. Note: Can be made spicy.',
+'D': 'Beef brisket. Note: Comes with au jus. That\'s pronounced "Oh jhoo", not "Ow Juice"'}
+thursday = {'B': 'Horseradish omelet. Note: better than it sounds',
+'L': 'Momma\'s Curry. Note: Can be made spicy.',
+'D': 'Beef brisket. Note: Comes with au jus. That\'s pronounced "Oh jhoo", not "Ow Juice"'}
+friday = {'B': 'Horseradish omelet. Note: better than it sounds',
+'L': 'Momma\'s Curry. Note: Can be made spicy.',
+'D': 'Beef brisket. Note: Comes with au jus. That\'s pronounced "Oh jhoo", not "Ow Juice"'}
+saturday = {'B': 'Horseradish omelet. Note:better than it sounds',
 'L': 'Momma\'s Curry. Note: Can be
 made spicy.',
 'D': 'Beef brisket. Note: Comes with
@@ -79,7 +59,7 @@ time.".format(time)
 better than it sounds',
 'L': 'Momma\'s Curry. Note: Can be
 made spicy.',
-'D': 'Beef brisket. Note: Comes with
+'D': 'Beef brisket. Note: Comes with`
 au jus. That\'s pronounced "Oh
 jhoo", not "Ow Juice"'}
 specials = {'M': monday,
