@@ -27,7 +27,7 @@ class square(polygon):
         turtle.end_fill()
 
 
-square = square(color='#abc143', size=200)
+square = square(color='#123abc', size=200)
 
 print(square.sides)
 print(square.angle)
