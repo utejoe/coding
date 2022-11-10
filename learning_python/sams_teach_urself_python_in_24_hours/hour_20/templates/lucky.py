@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def lucky():
-    return render_template('lucky.html')
+    lucky_num = 7
+    return render_template('lucky.html', lucky_num=lucky_num)
 
 if __name__=='__main__':
     app.run()

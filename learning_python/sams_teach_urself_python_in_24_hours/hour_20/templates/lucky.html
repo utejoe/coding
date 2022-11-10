@@ -2,6 +2,9 @@
     <body>
         <p>Hello there, now user</p>
         <p>Here is your lucky number:</p>
-        <p>5</p>
+        <p>{{ lucky_num}}</p>
+        {% if lucky_num == 99%}
+        <p>Wow! That's super lucky!</p>
+        {% endif %}
     </body>
 </html>
