@@ -1,13 +1,11 @@
-/* 16L07.c: Usimh an array of.pointers */
-#include <stdio.h>
 /* function declarations */
 void StrPrint1(char **str1, int size);
 void StrPrint2(char *str2);
 /* main() function */
 main()
 {
-	char *str[4] = {"There’s music in the sighing of a reed;",
-			"There’s music in the gushing of a rill;",
+	char *str[4] = {"There's music in the sighing of a reed;",
+			"There's music in the gushing of a rill;",
 			"There's music in all things if men had ears;",
 			"There earth is but an echo of the spheres.\n"
 			};

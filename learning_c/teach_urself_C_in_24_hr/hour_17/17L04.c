@@ -10,7 +10,7 @@ main()
 	char *str[4] = {"There's music in the sighing of a reed;",
 			"There's music in the gushing of a rill;",
 			"There's music in all things if men had ears;",
-			"There earth is but an echo of the spheres.\n"
+			"Their earth is but an echo of the spheres.\n"
 			};
 	char *ptr;
 	int i;
