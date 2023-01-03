@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.0 Transitional// EN"
+"http://ww.w3.org/TR/xhtml1//DTD/xhtml1-trasnsitional.dtd">
+ 
+ <html>
+ <head>
+    <script type="text/javascript">
+        function person (name, age){
+            this.name = name;
+            this.age=age;
+        }
+        var judy = new person("judy joseph", 24) //creating a new instance of an object
+        var genevieve = new person('genevieve hr', 19)
+    </script>
+ </head>
+ 
+ <body>
+    <script type="text/javascript">
+        document.write(genevieve.age, "<br>", genevieve.name, "<br>", judy.name, "<br>", judy.age);
+    </script>
+ </body>
+ 
+ </html>
