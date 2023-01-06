@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.0 Transitional// EN"
+"http://ww.w3.org/TR/xhtml1//DTD/xhtml1-trasnsitional.dtd">
+ 
+ <html>
+ <head>
+    <script type="text/javascript">
+        function validator() {
+            if(document.judysForm.thebox.checked)
+            alert("Yes its checked!");
+            else
+            alert("no its not checked!")
+        }
+        
+    </script>
+ </head>
+ 
+ <body>
+  <form name="judysForm">
+    <input type="checkbox" name="thebox" />
+    <input type="button" value="press me!" onclick="validator()" />
+  </form>
+
+ </body>
+ 
+ </html>
